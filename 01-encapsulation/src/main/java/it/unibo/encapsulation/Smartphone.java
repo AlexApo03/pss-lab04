@@ -9,14 +9,46 @@ public class Smartphone {
     private static final int DEF_RAM_SIZE = 8192;
     private static final int DEF_N_CPU = 8;
 
-    public final int cpuCount;
-    public final int ram;
-    public final int sdSize;
-    public final String brand;
-    public final String model;
-    public final boolean hasGPS;
-    public final boolean has3G;
-    public final boolean hasNFC;
+    private final int cpuCount;
+    private final int ram;
+    private final int sdSize;
+    private final String brand;
+    private final String model;
+    private final boolean hasGPS;
+    private final boolean has3G;
+    private final boolean hasNFC;
+
+    public int getcpuCount(){
+        return cpuCount;
+    }
+
+     public int getram(){
+        return ram;
+    }
+
+     public int sdSize(){
+        return sdSize;
+    }
+
+     public String getbrand(){
+        return brand;
+    }
+
+     public String getmodel(){
+        return model;
+    }
+
+     public boolean gethasGPS(){
+        return hasGPS;
+    }
+
+     public boolean gethas3G(){
+        return has3G;
+    }
+
+     public boolean gethasNFC(){
+        return hasNFC;
+    }
 
     public Smartphone(
         final int cpuCount,
